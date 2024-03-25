@@ -9,6 +9,11 @@ awscli = "*"
 jupyter = "*"
 boto3 = "*"
 pyarrow = "*"
+pyyaml = "*"
+pylint = "*"
+pycodestyle = "*"
+moto = {extras = ["s3"], version = "*"}
+coverage = "*"
 
 [dev-packages]
 
